@@ -1,5 +1,7 @@
 # shufflr
 
+![Travis CI](https://travis-ci.org/hectortosa/shufflr.svg?branch=master)
+
 Shuffle lists based on Fisher-Yates shuffle algorithm
 
 ## Quick start
