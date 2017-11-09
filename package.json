@@ -1,0 +1,22 @@
+{
+  "name": "shufflr",
+  "version": "1.0.0",
+  "description": "Shuffle lists based on Fisher-Yates shuffle algorithm",
+  "main": "shufflr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hectortosa/shufflr.git"
+  },
+  "keywords": [
+    "shuffle"
+  ],
+  "author": "Héctor Tortosa <hectortosa@icloud.com> (https://hectortosa.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hectortosa/shufflr/issues"
+  },
+  "homepage": "https://github.com/hectortosa/shufflr#readme"
+}
