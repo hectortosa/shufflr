@@ -1,12 +1,12 @@
-import Shufflr from '../shufflr.js';
-var chai = require('chai');
+import { shuffle } from "../shufflr.js";
+import { expect } from "chai";
 
-describe('Shufflr', function() {
-  describe('#shuffle()', function() {
-    it('should return empty array when parameter is not an array', function() {
-      var notArray = {"one": 1, "two": 2, "three": 3};
+describe("shufflr", function() {
+  describe("#shuffle()", function() {
+    it("should return empty array when parameter is not an array", function() {
+      var notArray = { one: 1, two: 2, three: 3 };
 
-      chai.should().not.exist(Shufflr.shuffle(notArray));
+      expect(shuffle(notArray)).to.be.an("array").that.is.empty;
     });
   });
 });
