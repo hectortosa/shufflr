@@ -4,7 +4,7 @@
   "description": "Shuffle lists based on Fisher-Yates shuffle algorithm",
   "main": "shufflr.js",
   "scripts": {
-    "test": "echo \"No test specified\""
+    "test": "mocha --require @babel/register"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/hectortosa/shufflr/issues"
   },
-  "homepage": "https://github.com/hectortosa/shufflr#readme"
+  "homepage": "https://github.com/hectortosa/shufflr#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
 }
