@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/hectortosa/shufflr.svg?branch=master)](https://travis-ci.org/hectortosa/shufflr)
 
-Shuffle lists based on Fisher-Yates shuffle algorithm
+Shuffle lists based on [Fisher-Yates](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) shuffle algorithm
 
 ## Quick start
 
@@ -20,8 +20,8 @@ Import shufflr in your JavaScript code:
     var shufflr = require('shufflr')
 ```
 
-Use shuffle method with a list to shuffle it:
+Use shuffle method with an array to get a copy of it shuffled:
 
 ```javascript
-    shufflr.shuffle(myList)
+    var shuffledArray = shufflr.shuffle(originalArray)
 ```
