@@ -1,6 +1,6 @@
 # shufflr
 
-![Travis CI](https://travis-ci.org/hectortosa/shufflr.svg?branch=master)
+[![Build Status](https://travis-ci.org/hectortosa/shufflr.svg?branch=master)](https://travis-ci.org/hectortosa/shufflr)
 
 Shuffle lists based on Fisher-Yates shuffle algorithm
 
