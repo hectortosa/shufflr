@@ -14,5 +14,19 @@ describe("shufflr", function() {
 
       expect(shuffle(list)).to.be.not.equal(list);
     });
+
+    it("should shuffle large arrays", function() {
+      
+      var list = new Array(50000000);
+      var i;
+
+      for (i = 0; i < 50000000; i++) {
+        list[i] = i;
+      }
+
+      this.timeout(20000);
+      
+      expect(shuffle(list)).to.be.not.equal(list);
+    });
   });
 });
