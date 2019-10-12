@@ -1,6 +1,6 @@
 {
   "name": "shufflr",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Shuffle lists based on Fisher-Yates shuffle algorithm",
   "main": "shufflr.js",
   "scripts": {
@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/hectortosa/shufflr#readme",
   "devDependencies": {
-    "@babel/core": "^7.6.2",
-    "@babel/preset-env": "^7.6.2",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
     "@babel/register": "^7.6.2",
     "chai": "^4.2.0",
     "mocha": "^6.2.1"
