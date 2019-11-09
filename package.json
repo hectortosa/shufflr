@@ -21,12 +21,12 @@
   },
   "homepage": "https://github.com/hectortosa/shufflr#readme",
   "devDependencies": {
-    "@babel/core": "^7.7.0",
+    "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",
     "@babel/register": "^7.7.0",
     "chai": "^4.2.0",
     "mocha": "^6.2.2",
-    "npm-check-updates": "^3.2.0"
+    "npm-check-updates": "^3.2.1"
   },
   "dependencies": {}
 }
