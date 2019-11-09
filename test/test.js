@@ -15,6 +15,15 @@ describe("shufflr", function() {
       expect(shuffle(list)).to.be.not.equal(list);
     });
 
+    it("all original items are in the result shuffled list", function() {
+      var list = [1, 2, 3, 4, 5, 6, 7],
+      shuffledList;
+
+      shuffledList = shuffle(list);
+
+      expect(list.every(value => shuffledList.includes(value))).to.be.equal(true);
+    });
+
     it("should shuffle large arrays", function() {
       
       var list = new Array(50000000);

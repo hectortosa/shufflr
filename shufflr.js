@@ -1,5 +1,8 @@
 export function shuffle(list, seed) {
-  var shuffleItem, i, j, shuffledList;
+  var shuffleItem,
+    i = 0,
+    j = 0,
+    shuffledList;
 
   if (!Array.isArray(list)) {
     return [];
@@ -8,7 +11,7 @@ export function shuffle(list, seed) {
   shuffledList = Array.from(list);
 
   if (shuffledList.length <= 2) {
-    return list;
+    return shuffledList;
   }
 
   seed = seed || 10000;
@@ -17,7 +20,7 @@ export function shuffle(list, seed) {
     j = (Math.round(Math.random() * seed) + i) % shuffledList.length;
 
     shuffleItem = shuffledList[i];
-    shuffledList[i] = list[j];
+    shuffledList[i] = shuffledList[j];
     shuffledList[j] = shuffleItem;
   }
 
