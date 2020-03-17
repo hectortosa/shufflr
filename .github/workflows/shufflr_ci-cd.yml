@@ -1,4 +1,4 @@
-name: Node.js Package
+name: Shufflr CI/CD
 
 on:
   pull_request:
@@ -10,6 +10,7 @@ on:
 
 jobs:
   build:
+    name: Build and Test Package
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -20,6 +21,8 @@ jobs:
       - run: npm test
 
   publish-npm:
+    name: Publish Package
+    if: github.event_name != pull_request
     needs: build
     runs-on: ubuntu-latest
     steps:
