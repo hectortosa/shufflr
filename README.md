@@ -1,6 +1,6 @@
 # shufflr
 
-[![NPM](https://img.shields.io/npm/v/shufflr)](https://www.npmjs.com/package/shufflr) [![Build Status](https://travis-ci.org/hectortosa/shufflr.svg?branch=master)](https://travis-ci.org/hectortosa/shufflr) ![Dependencies](https://img.shields.io/david/hectortosa/shufflr) ![Dev Dependencies](https://img.shields.io/david/dev/hectortosa/shufflr)
+[![NPM](https://img.shields.io/npm/v/shufflr)](https://www.npmjs.com/package/shufflr) ![Shufflr CI/CD](https://github.com/hectortosa/shufflr/workflows/Shufflr%20CI/CD/badge.svg)
 
 Shuffle lists based on [Fisher-Yates](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) shuffle algorithm
 
