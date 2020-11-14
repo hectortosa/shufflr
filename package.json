@@ -1,6 +1,6 @@
 {
   "name": "shufflr",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "description": "Shuffle lists based on Fisher-Yates shuffle algorithm",
   "main": "shufflr.js",
   "scripts": {
