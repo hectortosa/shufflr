@@ -3,7 +3,7 @@ name: Shufflr CI/CD
 on:
   push:
     branches:
-      - master
+      - trunk
 jobs:
   build:
     name: Build, Test and Publish
