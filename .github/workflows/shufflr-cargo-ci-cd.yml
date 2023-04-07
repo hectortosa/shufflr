@@ -23,8 +23,5 @@ jobs:
 
       - name: Publish to Crates.io
         if: startsWith(github.ref, 'refs/tags/')
-        uses: softprops/action-cargo@v1
-        with:
-          command: publish
-          args: --token ${CRATES_IO_TOKEN}
+        run: publish --token ${CRATES_IO_TOKEN}
 
