@@ -1,0 +1,30 @@
+name: Rust Build and Publish
+
+on:
+  push:
+    tags:
+      - '*'
+
+env:
+  CARGO_TERM_COLOR: always
+  CRATES_IO_TOKEN: ${{ secrets.CRATES_IO_TOKEN }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./rust
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build and Test
+        run: cargo build --release && cargo test --release
+
+      - name: Publish to Crates.io
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-cargo@v1
+        with:
+          command: publish
+          args: --token ${CRATES_IO_TOKEN}
+
