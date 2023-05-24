@@ -89,6 +89,6 @@ mod tests {
         shuffle(&list);
         
         let timeresult = start_time.elapsed();
-        assert!(timeresult < Duration::from_secs(12), "Shuffling took too long: {:?}", timeresult);
+        assert!(timeresult < Duration::from_secs(12), "Shufflr took more than expected: {:?}", timeresult);
     }
 }

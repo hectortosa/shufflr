@@ -24,6 +24,5 @@ jobs:
         run: cargo build --release && cargo test --release
 
       - name: Publish to Crates.io
-        if: startsWith(github.ref, 'refs/tags/')
         run: publish --token ${CRATES_IO_TOKEN}
 
