@@ -1,6 +1,8 @@
 # shufflr
 
-[![NPM Shufflr](https://img.shields.io/npm/v/shufflr)](https://www.npmjs.com/package/shufflr) [![JavaScript CI](https://github.com/hectortosa/shufflr/actions/workflows/shufflr_ci-cd.yml/badge.svg?branch=trunk)](https://github.com/hectortosa/shufflr/actions/workflows/shufflr_ci-cd.yml) [![Rust CI](https://github.com/hectortosa/shufflr/actions/workflows/shufflr-cargo-ci-cd.yml/badge.svg?branch=trunk)](https://github.com/hectortosa/shufflr/actions/workflows/shufflr-cargo-ci-cd.yml) [![crates.io Shufflr](https://img.shields.io/crates/v/shufflr)](https://crates.io/crates/shufflr)
+[![NPM Shufflr](https://img.shields.io/npm/v/shufflr)](https://www.npmjs.com/package/shufflr) [![crates.io Shufflr](https://img.shields.io/crates/v/shufflr)](https://crates.io/crates/shufflr)
+
+[![JavaScript CI](https://github.com/hectortosa/shufflr/actions/workflows/js-ci-cd.yml/badge.svg?branch=trunk)](https://github.com/hectortosa/shufflr/actions/workflows/shufflr_ci-cd.yml) [![Rust CI](https://github.com/hectortosa/shufflr/actions/workflows/rust-ci-cd.yml/badge.svg?branch=trunk)](https://github.com/hectortosa/shufflr/actions/workflows/shufflr-cargo-ci-cd.yml)
 
 Shuffle lists based on [Fisher-Yates](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) shuffle algorithm
 
