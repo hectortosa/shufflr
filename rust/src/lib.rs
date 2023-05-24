@@ -6,7 +6,6 @@ use rand::rngs::SmallRng;
 /// # Arguments
 ///
 /// * `list` - A slice of generic type `T` to be shuffled.
-/// * `seed` - A `u64` seed value used to initialize the random number generator.
 ///
 /// # Returns
 ///

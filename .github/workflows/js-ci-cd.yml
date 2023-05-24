@@ -1,4 +1,4 @@
-name: JavaScript build and publish to Npm
+name: JavaScript Build and Publish to Npm
 
 on:
   push:
