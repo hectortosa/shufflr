@@ -1,9 +1,11 @@
-name: Shufflr CI/CD
+name: JavaScript build and publish to Npm
 
 on:
   push:
     branches:
       - trunk
+    paths:
+      - 'js/**'
 jobs:
   build:
     name: Build, Test and Publish

@@ -1,9 +1,11 @@
-name: Rust Build and Publish
+name: Rust Build and Publish to crates.io
 
 on:
   push:
-    tags:
-      - '*'
+    branches:
+      - trunk
+    paths:
+      - 'rust/**'
 
 env:
   CARGO_TERM_COLOR: always
