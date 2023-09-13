@@ -8,7 +8,7 @@ Shuffle lists based on [Fisher-Yates](https://en.wikipedia.org/wiki/Fisher%E2%80
 
 ## Using shufflr
 
-**Shufflr** is available for Rust as crates.io package (also for JavaScript as [NPM package](https://www.npmjs.com/package/shufflr)).
+> Note: **Shufflr** is also available for JavaScript as [NPM package](https://www.npmjs.com/package/shufflr).
 
 To use **shufflr** in your project simply follow this steps:
 
@@ -44,3 +44,9 @@ To run **shufflr** tests simply run:
 ```bash
     cargo test
 ```
+
+## :heart: Like the project?
+
+If you like this project (or [any other](https://github.com/hectortosa)) and want to help me contiue to improve it or create new ones, check my Ko-fi profile and consider buying me a Speciality Coffee:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H3P6FO7)
